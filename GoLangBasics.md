@@ -42,7 +42,7 @@ the greetings.go file have the function implementation and hello.go file have th
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/4d29a07c-9930-47f5-a306-820b4dfcf8e1)
 
 
-greetings.go file: 
+greetings.go file in text: 
 ```
 package greetings
 //import fmt
@@ -61,7 +61,7 @@ func Hello(name string) (string, error) string {
     return message, nil //Go can do multiple returns. nil(no error) here is an output of the successful return. Helps the caller function to see the success return.
 }
 ```
-hello.go file: 
+hello.go file in text: 
 ```
 package main
 import(
