@@ -27,7 +27,7 @@ go mod tidy
 ```
 go run .
 ```
-
+* make() function: Used for slices, maps or channels. make() allocates memory on heap and initializes and puts zero or empty strings into values. Unlike new() make returns same type as it's argument. 
 
 
 
@@ -56,7 +56,12 @@ outputs: after running the hello.go file 3 times. (as it is random outputs may v
 
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/6ce52c04-1344-484f-8fda-44ddab3af61b)
 
+#### use of map(),slicing to return greetings for multiple people:
 
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/a76edaa0-0096-4a77-889a-90356028d7fc)
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/1d5cdae1-c85e-4cde-9739-ef4cae9629e7)
+
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/c5ed8beb-4402-47f3-8bc3-b1110ee0925a)
 
 
 
