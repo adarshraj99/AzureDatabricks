@@ -38,7 +38,9 @@ go run .
 
 the greetings.go file have the function implementation and hello.go file have the callers for greetings.go file.
 
-![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/7e3c6cb6-b343-4ef1-8228-a2642f6d1392)
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/966bc4e2-f751-4962-b817-ea7096d84278)
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/4d29a07c-9930-47f5-a306-820b4dfcf8e1)
+
 
 greetings.go file: 
 ```
