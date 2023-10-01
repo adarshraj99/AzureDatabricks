@@ -46,4 +46,9 @@ the greetings.go file have the function implementation and hello.go file have th
 
 #### Use of slicing to print outputs at random:  
 
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/885d2060-ab71-4e8f-96b8-da883447c1b2)
+
+hello.go will be same file as previous.
+
+
 
