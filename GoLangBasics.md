@@ -15,3 +15,7 @@ without the := operator:
 var message string
 message = fmt.Sprintf("Hi, %v. Welcome!", name)
 ```
+* local and git folder dependency: As go.mod file manage dependency. Adding example.con/file1 will add dependency folders in example.com and ca nbe used for live projects. But,for running locally need to change it to local filewith:
+  ```
+  go mod edit -replace example.com/greetings=../greetings   //greetings is dependant folder here
+  ```
