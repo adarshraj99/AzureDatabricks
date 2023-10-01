@@ -50,5 +50,11 @@ the greetings.go file have the function implementation and hello.go file have th
 
 hello.go will be same file as previous.
 
+outputs: after running the hello.go file 3 times. (as it is random outputs may vary): 
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/6ce52c04-1344-484f-8fda-44ddab3af61b)
+
+
+
+
 
 
