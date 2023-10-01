@@ -4,4 +4,14 @@
 * Go use quote module as requirement as well as go.sum file in authenticating the module.
 * commmand: '**go mod tidy**': This command run the automatic search of missing packages in codebase and update to correct versions .SO, can be ued to install the used packages.
 * command: **go list**: To getlist of all the installed packages.
-  
+* In Go, a function whose name starts with a capital letter can be called by a function not in the same package. This is known in Go as an exported name.
+* := operator : This is a shortcut for declaring and initializing a variable in one line
+```
+with := operator:
+message := fmt.Sprintf("Hi, %v. Welcome!", name)
+```
+```
+without the := operator:
+var message string
+message = fmt.Sprintf("Hi, %v. Welcome!", name)
+```
