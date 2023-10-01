@@ -36,8 +36,8 @@ go run .
 
 #### A small project repo with 2 directories: Greetings(with greetings.go file) and hello(with hello.go file) and a go.mod file.
 the greetings.go file have the function implementation and hello.go file have the callers for greetings.go file.
-![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/7e3c6cb6-b343-4ef1-8228-a2642f6d1392)
 
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/7e3c6cb6-b343-4ef1-8228-a2642f6d1392)
 
 greetings.go file: 
 ```
