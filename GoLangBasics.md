@@ -48,13 +48,15 @@ the greetings.go file have the function implementation and hello.go file have th
 
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/885d2060-ab71-4e8f-96b8-da883447c1b2)
 
+![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/6f152308-ad7a-4db9-931e-83a961b8d16a)
+
 hello.go will be same file as previous.
 
 outputs: after running the hello.go file 3 times. (as it is random outputs may vary): 
 
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/6ce52c04-1344-484f-8fda-44ddab3af61b)
 
-![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/6f152308-ad7a-4db9-931e-83a961b8d16a)
+
 
 
 
