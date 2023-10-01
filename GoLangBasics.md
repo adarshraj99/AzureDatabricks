@@ -34,53 +34,16 @@ go run .
 
 
 
-#### A small project repo with 2 directories: Greetings(with greetings.go file) and hello(with hello.go file) and a go.mod file.
+### A small project repo with 2 directories: Greetings(with greetings.go file) and hello(with hello.go file) and a go.mod file.
 
 the greetings.go file have the function implementation and hello.go file have the callers for greetings.go file.
+
+#### calling one module function from other module by importing. And, handeling errors:
 
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/966bc4e2-f751-4962-b817-ea7096d84278)
 ![image](https://github.com/adarshraj99/GoLang-Terratest-Azure-DataBricks.md/assets/122180050/4d29a07c-9930-47f5-a306-820b4dfcf8e1)
 
 
-greetings.go file in text: 
-```
-package greetings
-//import fmt
-import(
-    "errors" //Standard Go library to use with errors
-    "fmt"
-)
-// Hello returns a greeting for the named person.
-func Hello(name string) (string, error) string {
-    // Return a greeting that embeds the name in a message.
-    // If no name was given return an error with a message.
-    if name == ""{
-        return "", errors.New("empty name") //errors.new function takes a string message and returns an error value.
-    }
-    message := fmt.Sprintf("Hi, %v. Welcome!", name)
-    return message, nil //Go can do multiple returns. nil(no error) here is an output of the successful return. Helps the caller function to see the success return.
-}
-```
-hello.go file in text: 
-```
-package main
-import(
-    "fmt"
-    "example.com/greetings"
-    "log" //To log errors
-)
-func main(){
-    //Set properties of the predefines logger. To print error message prefix, to disable printing, time, file source, line number.
-    log.SetPrefix("greetings: ")
-    log.SetFlags(0)
-    //get a greeting message and print it.
-    message, err := greetings.Hello("Adarsh") //error will occur if this found empty.
-    // if error occurs print to console and exit program.
-    if err != nil {
-        log.Fatal(err)
-    }
-    // If no error was returned, print the returned message to console.message
-    fmt.Println(message)
-}
-```
+#### Use of slicing to print outputs at random:  
+
 
