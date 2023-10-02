@@ -12,6 +12,28 @@ function name don't start with lower case.
 ```
 Within these functions, use the Error, Fail or related methods to signal failure.
 File name should be like : `"_test.go"` and function name should be like `TestXxx` to run by go test command. 
+- File within the same package will run directly: 
+```
+package abs
+import "testing"
+
+func TestAbs(t *testing.T) {
+    got := Abs(-1)
+    if got != 1 {
+        t.Errorf("Abs(-1) = %d; want 1", got)
+    }} 
+```
+If the file is in saperate package ,the package name should be like : `abcd_test` to import it in the runing package.
+There are multiple things can be used with this testing package: https://pkg.go.dev/testing
+`Benchmark (format: func BenchmarkXxx(*testing.B))`,
+`Fuzzing (format: func FuzzHex(f *testing.F))`,
+`skipping (format: func TestTimeConsuming(t *testing.T))`,
+subtests and sub-benchmarks: subtests can be used for parallel execution.
+`running in main thread: func TestMain(m *testing.M)`
+
+
+
+
 
 
 
@@ -31,7 +53,7 @@ message = fmt.Sprintf("Hi, %v. Welcome!", name)
 ```
 * local and git folder dependency: As go.mod file manage dependency. Adding example.con/file1 will add dependency folders in example.com and ca nbe used for live projects. But,for running locally need to change it to local filewith:
 ```
-go mod edit -replace example.com/greetings=../greetings   //greetings is dependant folder her. 
+go mod edit -replace example.com/greetings=../greetings   //greetings is dependant folder here. 
 ```
 After this goto the file which is calling the greetigs from cmd and run below command to get the dependencies of the run file:
 ```
