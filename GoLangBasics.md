@@ -2,6 +2,20 @@
 * Go packages are available in '**rsc.io**' eg : 'rsc.io/quote/v4'
 * To download the go packages: eg: for quote package : '**go get rsc.io/quote**'
 * Go use quote module as requirement as well as go.sum file in authenticating the module.
+* **test package**: A unit test package for writing and running unit test. It have diferent functions, assertions, code optimization and run time benchmarks.
+* **fmt**: is a Go package that is used to format basic strings, values, inputs, and outputs, print.
+* **path/filepath package**: This package is used to get the filepath OS dependency solved. It uses / or \ as per the OS used.
+* **testing package**: Testing provides automated testing of Go packages. It runs with "go test" command only for Function with form:
+```
+func TestXxx(*testing.T)
+function name don't start with lower case.  
+```
+Within these functions, use the Error, Fail or related methods to signal failure.
+File name should be like : `"_test.go"` and function name should be like `TestXxx` to run by go test command. 
+
+
+
+    
 * commmand: '**go mod tidy**': This command run the automatic search of missing packages in codebase and update to correct versions .SO, can be ued to install the used packages.
 * command: **go list**: To getlist of all the installed packages.
 * In Go, a function whose name starts with a capital letter can be called by a function not in the same package. This is known in Go as an exported name.
@@ -28,7 +42,8 @@ go mod tidy
 go run .
 ```
 * make() function: Used for slices, maps or channels. make() allocates memory on heap and initializes and puts zero or empty strings into values. Unlike new() make returns same type as it's argument. 
-
+* 
+*   
 
 
 
