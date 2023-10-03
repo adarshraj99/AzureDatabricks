@@ -31,7 +31,9 @@ There are multiple things can be used with this testing package: https://pkg.go.
 subtests and sub-benchmarks: subtests can be used for parallel execution.
 `running in main thread: func TestMain(m *testing.M)`
 
-
+* **[]variableName** : 
+* **println** : It Means “Print Line”. It provides blank space saparator in between the printed.
+* **printf**  : Means “Print Formatter”. It prints formatted strings. `fmt.Printf("His name is %s", s)`
 
 
 
@@ -64,8 +66,8 @@ go mod tidy
 go run .
 ```
 * make() function: Used for slices, maps or channels. make() allocates memory on heap and initializes and puts zero or empty strings into values. Unlike new() make returns same type as it's argument. 
-* 
-*   
+* `type` keyword: It is a syntax to declare any data type in GoLang. 
+* `struct`: It is used for storing multiple data type variables into a single variable.
 
 
 
