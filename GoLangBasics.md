@@ -31,7 +31,7 @@ There are multiple things can be used with this testing package: https://pkg.go.
 subtests and sub-benchmarks: subtests can be used for parallel execution.
 `running in main thread: func TestMain(m *testing.M)`
 
-* **[]variableName** : 
+* **[]variableName** : Used for creating slices. Used if need to create slice from collection. 
 * **println** : It Means “Print Line”. It provides blank space saparator in between the printed.
 * **printf**  : Means “Print Formatter”. It prints formatted strings. `fmt.Printf("His name is %s", s)`
 
