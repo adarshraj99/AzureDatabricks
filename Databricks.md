@@ -1,3 +1,6 @@
+#### Intro: 
+Databricks is Apache spark product hosted by MS Azure it provides clusters, Notebooks, Delta-lake storages .......to update.
+
 #### Clusters: 
 set of computation resources and configurations used to run data engineering, data science, and data analytics workloads. Types: Single node and MultiNode Clusters. 
 Single node cluster is having only one Node and no worker nodes. Multi Node cluster will have 1 Node and multiple workers (for larger compute resources).
